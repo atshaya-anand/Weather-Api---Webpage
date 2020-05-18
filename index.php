@@ -19,7 +19,7 @@
 
             $tempMax = intval($weatherArray['main']['temp_max'] - 273);
 
-            $weather .= " The temperature is ".$tempInCelcius."&deg;C.. Max: ".$tempMax." &deg;C Min: ".$tempMin." &deg;C and the wind speed is ".$weatherArray['wind']['speed']."m/s.";
+            $weather .= "The Current temperature is ".$tempInCelcius."&deg;C.. Max: ".$tempMax." &deg;C Min: ".$tempMin." &deg;C and the wind speed is ".$weatherArray['wind']['speed']."m/s.";
             
         } else {
             
