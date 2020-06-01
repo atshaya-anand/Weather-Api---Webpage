@@ -5,7 +5,7 @@
     
     if (@$_GET['city']) {
         
-     @$urlContents = file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=".urlencode($_GET['city'])."&appid=f103c7b4a1f7e29714b23c662885fe52");
+     @$urlContents = file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=".urlencode($_GET['city'])."&appid=YOUR_API_KEY");
         
         $weatherArray = json_decode($urlContents, true);
         
